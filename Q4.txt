@@ -1,0 +1,7 @@
+USAGE OF COMMA OPERATOR IN JAVA SCRIPT:
+In java script, the comma operator evaluates each of its operands from left to right and returns the value of the last operands.
+example :
+let x = 10
+let result = (x++,x)
+console.log(result)
+// output will be 10 not 11. 
